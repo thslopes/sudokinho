@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB8BE8C1909FB7B0002869E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BE8B1909FB7B0002869E /* Foundation.framework */; };
+		AFB8BE8E1909FB7B0002869E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BE8D1909FB7B0002869E /* CoreGraphics.framework */; };
+		AFB8BE901909FB7B0002869E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BE8F1909FB7B0002869E /* UIKit.framework */; };
+		AFB8BE961909FB7B0002869E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB8BE941909FB7B0002869E /* InfoPlist.strings */; };
+		AFB8BE981909FB7B0002869E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8BE971909FB7B0002869E /* main.m */; };
+		AFB8BE9C1909FB7B0002869E /* SDKNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8BE9B1909FB7B0002869E /* SDKNAppDelegate.m */; };
+		AFB8BE9F1909FB7B0002869E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB8BE9D1909FB7B0002869E /* Main.storyboard */; };
+		AFB8BEA21909FB7B0002869E /* SDKNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8BEA11909FB7B0002869E /* SDKNViewController.m */; };
+		AFB8BEA41909FB7B0002869E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB8BEA31909FB7B0002869E /* Images.xcassets */; };
+		AFB8BEAB1909FB7B0002869E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BEAA1909FB7B0002869E /* XCTest.framework */; };
+		AFB8BEAC1909FB7B0002869E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BE8B1909FB7B0002869E /* Foundation.framework */; };
+		AFB8BEAD1909FB7B0002869E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8BE8F1909FB7B0002869E /* UIKit.framework */; };
+		AFB8BEB51909FB7B0002869E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB8BEB31909FB7B0002869E /* InfoPlist.strings */; };
+		AFB8BEB71909FB7B0002869E /* SudokinhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8BEB61909FB7B0002869E /* SudokinhoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB8BEAE1909FB7B0002869E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB8BE801909FB7B0002869E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB8BE871909FB7B0002869E;
+			remoteInfo = Sudokinho;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB8BE881909FB7B0002869E /* Sudokinho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudokinho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB8BE8B1909FB7B0002869E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFB8BE8D1909FB7B0002869E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFB8BE8F1909FB7B0002869E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFB8BE931909FB7B0002869E /* Sudokinho-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sudokinho-Info.plist"; sourceTree = "<group>"; };
+		AFB8BE951909FB7B0002869E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB8BE971909FB7B0002869E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB8BE991909FB7B0002869E /* Sudokinho-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sudokinho-Prefix.pch"; sourceTree = "<group>"; };
+		AFB8BE9A1909FB7B0002869E /* SDKNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKNAppDelegate.h; sourceTree = "<group>"; };
+		AFB8BE9B1909FB7B0002869E /* SDKNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKNAppDelegate.m; sourceTree = "<group>"; };
+		AFB8BE9E1909FB7B0002869E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB8BEA01909FB7B0002869E /* SDKNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKNViewController.h; sourceTree = "<group>"; };
+		AFB8BEA11909FB7B0002869E /* SDKNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKNViewController.m; sourceTree = "<group>"; };
+		AFB8BEA31909FB7B0002869E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB8BEA91909FB7B0002869E /* SudokinhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokinhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB8BEAA1909FB7B0002869E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFB8BEB21909FB7B0002869E /* SudokinhoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SudokinhoTests-Info.plist"; sourceTree = "<group>"; };
+		AFB8BEB41909FB7B0002869E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB8BEB61909FB7B0002869E /* SudokinhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokinhoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB8BE851909FB7B0002869E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BE8E1909FB7B0002869E /* CoreGraphics.framework in Frameworks */,
+				AFB8BE901909FB7B0002869E /* UIKit.framework in Frameworks */,
+				AFB8BE8C1909FB7B0002869E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB8BEA61909FB7B0002869E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BEAB1909FB7B0002869E /* XCTest.framework in Frameworks */,
+				AFB8BEAD1909FB7B0002869E /* UIKit.framework in Frameworks */,
+				AFB8BEAC1909FB7B0002869E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB8BE7F1909FB7B0002869E = {
+			isa = PBXGroup;
+			children = (
+				AFB8BE911909FB7B0002869E /* Sudokinho */,
+				AFB8BEB01909FB7B0002869E /* SudokinhoTests */,
+				AFB8BE8A1909FB7B0002869E /* Frameworks */,
+				AFB8BE891909FB7B0002869E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB8BE891909FB7B0002869E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BE881909FB7B0002869E /* Sudokinho.app */,
+				AFB8BEA91909FB7B0002869E /* SudokinhoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB8BE8A1909FB7B0002869E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BE8B1909FB7B0002869E /* Foundation.framework */,
+				AFB8BE8D1909FB7B0002869E /* CoreGraphics.framework */,
+				AFB8BE8F1909FB7B0002869E /* UIKit.framework */,
+				AFB8BEAA1909FB7B0002869E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB8BE911909FB7B0002869E /* Sudokinho */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BE9A1909FB7B0002869E /* SDKNAppDelegate.h */,
+				AFB8BE9B1909FB7B0002869E /* SDKNAppDelegate.m */,
+				AFB8BE9D1909FB7B0002869E /* Main.storyboard */,
+				AFB8BEA01909FB7B0002869E /* SDKNViewController.h */,
+				AFB8BEA11909FB7B0002869E /* SDKNViewController.m */,
+				AFB8BEA31909FB7B0002869E /* Images.xcassets */,
+				AFB8BE921909FB7B0002869E /* Supporting Files */,
+			);
+			path = Sudokinho;
+			sourceTree = "<group>";
+		};
+		AFB8BE921909FB7B0002869E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BE931909FB7B0002869E /* Sudokinho-Info.plist */,
+				AFB8BE941909FB7B0002869E /* InfoPlist.strings */,
+				AFB8BE971909FB7B0002869E /* main.m */,
+				AFB8BE991909FB7B0002869E /* Sudokinho-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB8BEB01909FB7B0002869E /* SudokinhoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BEB61909FB7B0002869E /* SudokinhoTests.m */,
+				AFB8BEB11909FB7B0002869E /* Supporting Files */,
+			);
+			path = SudokinhoTests;
+			sourceTree = "<group>";
+		};
+		AFB8BEB11909FB7B0002869E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8BEB21909FB7B0002869E /* SudokinhoTests-Info.plist */,
+				AFB8BEB31909FB7B0002869E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB8BE871909FB7B0002869E /* Sudokinho */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB8BEBA1909FB7B0002869E /* Build configuration list for PBXNativeTarget "Sudokinho" */;
+			buildPhases = (
+				AFB8BE841909FB7B0002869E /* Sources */,
+				AFB8BE851909FB7B0002869E /* Frameworks */,
+				AFB8BE861909FB7B0002869E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sudokinho;
+			productName = Sudokinho;
+			productReference = AFB8BE881909FB7B0002869E /* Sudokinho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB8BEA81909FB7B0002869E /* SudokinhoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB8BEBD1909FB7B0002869E /* Build configuration list for PBXNativeTarget "SudokinhoTests" */;
+			buildPhases = (
+				AFB8BEA51909FB7B0002869E /* Sources */,
+				AFB8BEA61909FB7B0002869E /* Frameworks */,
+				AFB8BEA71909FB7B0002869E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB8BEAF1909FB7B0002869E /* PBXTargetDependency */,
+			);
+			name = SudokinhoTests;
+			productName = SudokinhoTests;
+			productReference = AFB8BEA91909FB7B0002869E /* SudokinhoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB8BE801909FB7B0002869E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SDKN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Thiago Lopes";
+				TargetAttributes = {
+					AFB8BEA81909FB7B0002869E = {
+						TestTargetID = AFB8BE871909FB7B0002869E;
+					};
+				};
+			};
+			buildConfigurationList = AFB8BE831909FB7B0002869E /* Build configuration list for PBXProject "Sudokinho" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB8BE7F1909FB7B0002869E;
+			productRefGroup = AFB8BE891909FB7B0002869E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB8BE871909FB7B0002869E /* Sudokinho */,
+				AFB8BEA81909FB7B0002869E /* SudokinhoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB8BE861909FB7B0002869E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BEA41909FB7B0002869E /* Images.xcassets in Resources */,
+				AFB8BE961909FB7B0002869E /* InfoPlist.strings in Resources */,
+				AFB8BE9F1909FB7B0002869E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB8BEA71909FB7B0002869E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BEB51909FB7B0002869E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB8BE841909FB7B0002869E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BE9C1909FB7B0002869E /* SDKNAppDelegate.m in Sources */,
+				AFB8BE981909FB7B0002869E /* main.m in Sources */,
+				AFB8BEA21909FB7B0002869E /* SDKNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB8BEA51909FB7B0002869E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB8BEB71909FB7B0002869E /* SudokinhoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB8BEAF1909FB7B0002869E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB8BE871909FB7B0002869E /* Sudokinho */;
+			targetProxy = AFB8BEAE1909FB7B0002869E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB8BE941909FB7B0002869E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB8BE951909FB7B0002869E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB8BE9D1909FB7B0002869E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB8BE9E1909FB7B0002869E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB8BEB31909FB7B0002869E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB8BEB41909FB7B0002869E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB8BEB81909FB7B0002869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFB8BEB91909FB7B0002869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB8BEBB1909FB7B0002869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudokinho/Sudokinho-Prefix.pch";
+				INFOPLIST_FILE = "Sudokinho/Sudokinho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFB8BEBC1909FB7B0002869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudokinho/Sudokinho-Prefix.pch";
+				INFOPLIST_FILE = "Sudokinho/Sudokinho-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFB8BEBE1909FB7B0002869E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sudokinho.app/Sudokinho";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudokinho/Sudokinho-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SudokinhoTests/SudokinhoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFB8BEBF1909FB7B0002869E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sudokinho.app/Sudokinho";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sudokinho/Sudokinho-Prefix.pch";
+				INFOPLIST_FILE = "SudokinhoTests/SudokinhoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB8BE831909FB7B0002869E /* Build configuration list for PBXProject "Sudokinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB8BEB81909FB7B0002869E /* Debug */,
+				AFB8BEB91909FB7B0002869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB8BEBA1909FB7B0002869E /* Build configuration list for PBXNativeTarget "Sudokinho" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB8BEBB1909FB7B0002869E /* Debug */,
+				AFB8BEBC1909FB7B0002869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFB8BEBD1909FB7B0002869E /* Build configuration list for PBXNativeTarget "SudokinhoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB8BEBE1909FB7B0002869E /* Debug */,
+				AFB8BEBF1909FB7B0002869E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB8BE801909FB7B0002869E /* Project object */;
+}
