@@ -44,7 +44,6 @@ Resolve(posição, clone, solução)
 		Retorna solução + 1
 
 	Se Tabuleiro[posição] > 0 //Preenchido no tabuleiro
-		clone[posição] = Tabuleiro[posição]
 		Retorna Resolve(posição + 1, clone, solução)
 
 	valor = 1
