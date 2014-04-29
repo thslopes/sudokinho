@@ -7,6 +7,15 @@ Sudoku()
 			Retorna
 	Faça Novamente
 
+Linha(posição)
+	Retorna posição MOD 9
+
+Coluna(posição)
+	Retorna posição / 9
+
+Quadrante(posição)
+	Retorna Linha(posição) / 3 + (Coluna(posição) / 3 ) 3
+	
 MontaTabuleiro(dificuldade)
 	CarregaValoresAleatóreos(0)
 	Remove(dificuldade)
