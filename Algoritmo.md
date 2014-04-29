@@ -1,3 +1,5 @@
+[Testes de cálculo de quadrante](https://docs.google.com/spreadsheets/d/1tlF4BNkj7VfMI-iV9SDIwhFMlQIAQeZUJCYibvUXC_E/edit?usp=sharing)
+
 ```
 Sudoku()
 	Leia dificuldade //Inteiro
