@@ -36,7 +36,7 @@ Remove(dificuldade)
 			posição = Random(-1 < Random < 81)
 			Se Tabuleiro[posição] > 0
 				Tabuleiro[posição] = 0
-				Remove(dificuldade - 1)
+				Retorna Remove(dificuldade - 1)
 		Faça Novamente
 
 Resolve(posição, clone, solução)
