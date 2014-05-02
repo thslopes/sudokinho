@@ -19,17 +19,17 @@ Quadrante(posição)
 	Retorna Linha(posição) / 3 + (Coluna(posição) / 3 ) 3
 	
 MontaTabuleiro(dificuldade)
-	CarregaValoresAleatóreos(0)
+	CarregaValoresAleatórios(0)
 	Remove(dificuldade)
 
-CarregaValoresAleatóreos(posição)
+CarregaValoresAleatórios(posição)
 	Se posição = 81
 		Retorna
 	Faça
 		valor = Random(0 < Random < 10)
 		Se NaoTemNaLinha(valor, posição, Tabuleiro) E NaoTemNaColuna(valor, posição, Tabuleiro) E NaoTemNoQuadrante(valor, posição, Tabuleiro)
 			Tabuleiro[posição] = valor
-			CarregaValoresAleatóreos(posição + 1)
+			CarregaValoresAleatórios(posição + 1)
 	Faça Novamente
 	
 Remove(dificuldade)
